@@ -19,11 +19,11 @@ function Login() {
     <div className="login">
       <div className="login__container">
         <img
-          src="https://static.toiimg.com/thumb/72975551.cms?width=680&height=512&imgsize=881753"
+          src="https://cdn.worldvectorlogo.com/logos/slack-new-logo.svg"
           alt=""
         />
-        <h1>Sign in to Slack</h1>
-        <p>smash.slack.com</p>
+        <h1>Sign in to ThinkAutom8 HQ</h1>
+        <p>thinkAutom8.slack.com</p>
         <Button onClick={signIn}>Sign In with Google</Button>
       </div>
     </div>
