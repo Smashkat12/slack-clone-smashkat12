@@ -9,8 +9,8 @@ import { useStateValue } from "./StateProvider"
 
 function App() {
 
-  const [{ user }, dispatch] = useStateValue();
-  console.log("FROM APP >>>", user);
+  const [{ user }] = useStateValue();
+  
 
   return (
     <div className="app">
