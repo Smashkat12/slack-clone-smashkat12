@@ -8,7 +8,7 @@ function Login() {
     auth
       .signInWithPopup(provider)
       .then((result) => {
-        console.log(result);
+        console.log("Firebase Object >>>",result);
       })
       .catch((error) => {
         alert(error.message);
