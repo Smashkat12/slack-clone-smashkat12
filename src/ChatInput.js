@@ -19,11 +19,12 @@ function ChatInput({ channelName, channelId }) {
         timestamp: firebase.firestore.FieldValue.serverTimestamp(),
         user: user.displayName,
         userImage: user.photoURL,
-      });
+	  });
+	  setInput('');
     }
   };
 
-  
+
   return (
     <div className="chatInput">
       <form>
